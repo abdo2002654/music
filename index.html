@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <i class="fa-solid fa-music"></i>
+        </div>
+        <div class="img-holder">
+            <img src="" alt="">
+        </div>
+        <div class="info">
+            <h4 class="song-name"></h4>
+            <p class="author"></p>
+        </div>
+        <div class="duration">
+            <div class="progress"></div>
+        </div>
+        <div class="timer">
+            <div class="current"></div>
+            <div class="full-time">0:0</div>
+        </div>
+        <div class="controls">
+            <button class="prev" onclick="prev()"><i class="fa fa-backward-step"></i></button>
+            <button class="toggler play" style="padding-left: 7px;"><i class="fa fa-play stopped"></i><i class="played fa fa-stop"></i></button>
+            <button class="next" onclick="next()"><i class="fa fa-forward-step"></i></button>
+        </div>
+    </div>
+
+    <audio src="" class="song">
+    </audio>
+    
+    <script src="main.js"></script>
+    <script src="all.min.js"></script>
+</body>
+</html>
